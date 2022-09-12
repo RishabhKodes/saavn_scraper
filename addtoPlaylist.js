@@ -12,7 +12,7 @@ for(var i=0;i<61;i++){
 
 axios({
     method:'post',
-    url:'https://api.spotify.com/v1/playlists/5qdH9qoUnmoh0Ah0JCLwBQ/tracks',
+    url:'https://api.spotify.com/v1/playlists/<playlist_id>/tracks',
     headers: { 
         'Content-Type': 'application/json',
         'Accept': 'application/json',
